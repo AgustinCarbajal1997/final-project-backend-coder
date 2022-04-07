@@ -1,5 +1,19 @@
 # final-project-backend-coder
 
+Este es mi proyecto final para el Curso de Backend de Coderhouse, el cual consiste en una API REST de un e-commerce. Algunas herramientas utilizadas fueron las siguientes:
+
+- Node / Express
+- Mongo DB a través de Cloud Atlas
+- Autenticación con JWT
+- Integración Cloudinary 
+- Integración Mercado Pago Check Out Pro
+- Validaciones y sanitización con Express Validator
+- Testing con Mocha, Chai y SuperTest
+- Paginación con mongoose-paginate-v2
+- Loggers con log4js
+- Configuración del servidor con pm2 y Nginx
+- Certficado SSL con certBot
+
 ### Configuración de pm2, nginx y certbot de let's encrypt (SSL).
 
 La configuración se llevó a cabo en un droplet de Digital Ocean. Se levantan dos aplicaciones de backend con pm2 (una en el puerto 8080, cuyo objetivo es manejar todo lo relacionado a los datos de los clientes, consultas de productos, etc. Y otra en el puerto 8081, cuyo objetivo es servir de dashboard para el administrador de la web).
