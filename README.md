@@ -1,6 +1,6 @@
 # final-project-backend-coder
 
-Este es mi proyecto final para el Curso de Backend de Coderhouse, el cual consiste en una API REST de un e-commerce. Algunas herramientas utilizadas fueron las siguientes:
+Este es mi proyecto final para el Curso de Backend de Coderhouse, el cual consiste en una API REST de un e-commerce y una app frontend desarrollada con React. Algunas herramientas utilizadas fueron las siguientes:
 
 - Node / Express
 - Mongo DB a través de Cloud Atlas
